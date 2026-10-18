@@ -1,0 +1,56 @@
+site_name: 酒井科协秋培 2026
+site_description: 2026 秋季学期基础技能培训课程主页，汇集课程安排、课前准备与学习材料。
+site_url: https://sast-autumn-training-2026.github.io/
+repo_url: https://github.com/sast-autumn-training-2026/sast-autumn-training-2026.github.io
+repo_name: SAST Autumn Training 2026
+theme:
+  name: material
+  custom_dir: theme
+  language: zh
+  logo: images/logo.png
+  favicon: images/favicon.png
+  font: false
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.indexes
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: white
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: 切换至深色模式
+    - scheme: slate
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/weather-sunny
+        name: 切换至浅色模式
+plugins:
+  - search:
+      lang: zh
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+nav:
+  - 首页: index.md
+  - 课程安排: schedule.md
+  - 基础技能:
+      - 课程概览: basic/index.md
+      - Coding Agent: basic/coding-agent/index.md
+  - 资源链接: links.md
+copyright: 酒井科协 SAST · 2026 秋季学期基础技能培训
