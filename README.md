@@ -14,7 +14,7 @@ mkdocs build --strict
 ## 内容
 
 - 首页：`content/index.md`
-- 课程索引：`content/basic/index_basic.md`
+- 课程总表：`content/index.md`；六讲直接作为顶层导航入口
 - Coding Agent：`content/basic/coding-agent/index.md`
 - 附件原件：`content/basic/coding-agent/coding-agent-lecture.html`
 

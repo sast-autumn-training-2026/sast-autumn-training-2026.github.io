@@ -90,19 +90,11 @@ nav:
   - 首页:
     - index.md
     - 资源链接: links.md
-    - 基础 Track: basic/index_basic.md
-  - 基础:
-    - basic/index_basic.md
-    - 初识 Coding Agent:
-      - basic/coding-agent/index.md
-      - 课程讲义: basic/coding-agent/coding-agent-lecture.html
-    - VScode 与 Linux 入门:
-      - basic/vscode-linux/index.md
-    - 前端基础:
-      - basic/frontend/index.md
-    - 后端基础:
-      - basic/backend/index.md
-    - Docker 入门:
-      - basic/docker/index.md
-    - 算力与基础设施:
-      - basic/infrastructure/index.md
+  - 初识 Coding Agent:
+    - basic/coding-agent/index.md
+    - 课程讲义: basic/coding-agent/coding-agent-lecture.html
+  - VScode 与 Linux 入门: basic/vscode-linux/index.md
+  - 前端基础: basic/frontend/index.md
+  - 后端基础: basic/backend/index.md
+  - Docker 入门: basic/docker/index.md
+  - 算力与基础设施: basic/infrastructure/index.md
