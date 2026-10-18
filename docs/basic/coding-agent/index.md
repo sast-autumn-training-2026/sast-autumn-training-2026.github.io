@@ -1,48 +1,23 @@
-# Coding Agent
+# 初识 Coding Agent
 
-从“让 AI 写代码”，走向能理解、能检查的工作流程。
+讲师：计31 罗天蔚
 
-本讲以 **Introduction to Coding Agents — Model, harness, and how to use them** 为主线，介绍 Coding Agent 的组成、工具演进与实践方法。
+## 课程简介
 
-## 课程讲义
+本讲聚焦一类正在改变编程方式的工具：能够自己读取代码仓库、执行命令、查看运行结果并反复修改的 coding agent。我们会从大语言模型最基本的行为讲起，说明它为什么能够“动手”，以及工具调用如何让它从只会生成文本，变成可以操作文件与终端的系统。在此基础上，梳理编程辅助工具的演变——从编辑器自动补全，到在对话窗口里粘贴代码，再到今天在终端中自主开发。
 
-[在线阅读交互讲义 ↗](coding-agent-lecture.html){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" }
-[下载 HTML 讲义](coding-agent-lecture.html){ .md-button download="coding-agent-lecture.html" }
+课程将穿插介绍 CLI、MCP、Skill 与 SDK 等概念，随后介绍当前主流的几款 coding agent，包括 Claude Code、Codex、Kimi Code、DSH 与 ZCode，并结合现场演示展示从空目录开始完成一个可运行项目的完整流程——包括规划任务、识别出错误与纠正。
 
-讲义共 **50 页**，保留附件原貌，支持离线打开。手机默认使用阅读模式；打印功能可将课件保存为 PDF。
+最后一部分来自讲师日常使用的经验，讨论不同模型与 harness 分别适合的任务与日常操作小 tips，希望帮助大家从“能用就行”迈向对 Agent 更强的掌控。本讲不需要任何前置经验，欢迎带上笔记本电脑跟随演示学习！
 
-## 内容导览
+## 授课安排
 
-| 章节 | 内容 |
-| --- | --- |
-| 01 · Fundamentals | Agent = Model + Harness；ReAct 与反馈闭环 |
-| 02 · Evolution | 从补全、聊天到终端 Agent；工具调用、MCP 与 Skills |
-| 03 · Features | 目标推进、后台任务、上下文及协作能力 |
-| 04 · Practice | 如何给出任务、管理权限并核验结果 |
-| 05 · Takeaways | 第一次实践的方法与常见问题 |
+授课时间：第五周周日（10月18日）下午 15:00–16:30
 
-## 课前准备建议
+授课地点：自强科技楼 312 A/B
 
-- 准备一台可使用浏览器的电脑，先阅读或下载讲义。
-- 如需动手，选择自己能够使用的 Coding Agent 工具，并确认其权限与服务设置。
-- 准备一个小型练习项目，先保存已有工作，再尝试范围明确的任务。
+## 课程材料
 
-!!! note "工具与账号"
-    阅读讲义无需账号。工具安装、服务访问与费用取决于所选产品；本页不要求购买特定服务。
+[课程讲义](coding-agent-lecture.html)
 
-## 如何使用讲义
-
-| 操作 | 快捷键 |
-| --- | --- |
-| 上一页 / 下一页 | `←` / `→` |
-| 目录与搜索 | `O` |
-| 中文讲者备注 | `N` |
-| 阅读 / 演示模式 | `R` |
-| 全屏 | `F` |
-| 关闭弹窗 | `Esc` |
-
-## 自主练习建议
-
-给工具一个能验收的小任务：描述期望行为，让它查看相关文件、修改并运行检查。最后自己查看变更，确认检查覆盖了你的需求。
-
-这是一项学习建议，正式作业、授课安排与课程录像将在公布后补充。
+[下载 HTML 讲义](coding-agent-lecture.html){: download="coding-agent-lecture.html" }

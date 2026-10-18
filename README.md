@@ -1,29 +1,21 @@
 # 酒井科协秋培 2026
 
-2026 秋季学期基础技能培训主页，沿用暑培站点的 MkDocs Material 结构。
+2026 秋季学期基础技能培训主页。严格沿用 [sast-summer-training-2026](https://github.com/sast-summer-training-2026/sast-summer-training-2026.github.io) 的 MkDocs Material 配置、样式和页面结构，仅替换培训名称、预告链接和已提供的课程材料。暑培课程与录像不作为本期内容。
 
-## 本地开发
-
-需要 Python 3.10 或更新版本。
+## 构建
 
 ```sh
-python -m venv .venv
-. .venv/bin/activate
 pip install -r requirements.txt
-mkdocs serve -a 0.0.0.0:8000
+mkdocs build --strict
 ```
 
-构建检查：`mkdocs build --strict`。生成目录为 `site/`。
+生成目录为 `site/`。GitHub Pages 工作流保留。
 
-## 更新内容
+## 内容
 
 - 首页：`docs/index.md`
-- 培训安排：`docs/schedule.md`
+- 课程索引：`docs/basic/index_basic.md`
 - Coding Agent：`docs/basic/coding-agent/index.md`
-- 原始讲义：`docs/basic/coding-agent/coding-agent-lecture.html`（保持附件原样）
+- 附件原件：`docs/basic/coding-agent/coding-agent-lecture.html`
 
-培训预告：[微信公众号](https://mp.weixin.qq.com/s/SepHT5yKPReIadTMS84KnQ)。当前云实例访问预告仍被网络策略拦截，完整课程、时间地点和报名信息待核实后补充；未将暑期课程误作为秋季安排。Logo 与 favicon 沿用暑期培训仓库的 SAST 资产。
-
-## 发布
-
-在 GitHub 仓库 Settings → Pages 中将 Source 设置为 **GitHub Actions**。推送到 `main` 后，工作流严格构建并部署到 GitHub Pages。本地构建不会自动发布。
+预告：https://mp.weixin.qq.com/s/SepHT5yKPReIadTMS84KnQ 。课程信息依据用户提供的预告正文录入；报名二维码请在原推送中查看。

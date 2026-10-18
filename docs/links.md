@@ -1,20 +1,19 @@
 # 资源链接
 
-## 本期培训
+本页面用于存放一些有用的资源链接。
 
-- [秋季培训预告](https://mp.weixin.qq.com/s/SepHT5yKPReIadTMS84KnQ)
-- [Coding Agent 课程介绍](basic/coding-agent/index.md)
-- [Coding Agent 交互讲义](basic/coding-agent/coding-agent-lecture.html)
-- [本站 GitHub 仓库](https://github.com/sast-autumn-training-2026/sast-autumn-training-2026.github.io)
+## 学习资源
 
-## 往期培训
+:open_book: [计算机系学生科协技能引导文档](https://docs.net9.org)
 
-- [2026 暑期培训资料仓库](https://github.com/sast-summer-training-2026/sast-summer-training-2026.github.io)
+## 往年暑培
 
-## 工具文档
+- [2025](https://summer25.net9.org/)
 
-- [OpenAI Codex 文档](https://developers.openai.com/codex/)
-- [Claude Code 文档](https://code.claude.com/docs/)
-- [Model Context Protocol](https://modelcontextprotocol.io/)
+- [2024](https://summer24.net9.org/)
 
-具体功能、服务可用性与使用方式以各产品当前官方文档为准。
+- [2023](https://summer23.net9.org/)
+
+- [2022](https://zhaochen20.notion.site/3-0-806e58e167fa438e92b67c70c01ca727)
+
+- [2021](https://cloud.tsinghua.edu.cn/d/1f222c2869964fc99f33/)

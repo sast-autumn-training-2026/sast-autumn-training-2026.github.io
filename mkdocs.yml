@@ -1,56 +1,107 @@
 site_name: 酒井科协秋培 2026
-site_description: 2026 秋季学期基础技能培训课程主页，汇集课程安排、课前准备与学习材料。
-site_url: https://sast-autumn-training-2026.github.io/
 repo_url: https://github.com/sast-autumn-training-2026/sast-autumn-training-2026.github.io
 repo_name: SAST Autumn Training 2026
+
 theme:
   name: material
-  custom_dir: theme
   language: zh
+  custom_dir: theme/
   logo: images/logo.png
   favicon: images/favicon.png
-  font: false
   features:
-    - navigation.tabs
+    - content.code.annotate
     - navigation.top
+    - navigation.tabs
     - navigation.indexes
-    - content.code.copy
   palette:
     - scheme: default
       primary: white
-      accent: deep orange
       toggle:
         icon: material/weather-night
-        name: 切换至深色模式
+        name: Switch to dark mode
     - scheme: slate
-      primary: black
-      accent: orange
       toggle:
         icon: material/weather-sunny
-        name: 切换至浅色模式
-plugins:
-  - search:
-      lang: zh
+        name: Switch to light mode
+
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://cdn.jsdelivr.net/npm/mermaid@10.1.0/dist/mermaid.min.js'
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      locale: zh
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+
+validation:
+  absolute_links: ignore
+  unrecognized_links: ignore
+
 markdown_extensions:
-  - md_in_html
+  - attr_list
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - attr_list
-  - admonition
-  - toc:
-      permalink: true
-  - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - meta
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.arithmatex_fenced_format
+
+# Contents
 nav:
-  - 首页: index.md
-  - 课程安排: schedule.md
-  - 基础技能:
-      - 课程概览: basic/index.md
-      - Coding Agent: basic/coding-agent/index.md
-  - 资源链接: links.md
-copyright: 酒井科协 SAST · 2026 秋季学期基础技能培训
+  - 首页:
+    - index.md
+    - 资源链接: links.md
+    - 基础 Track: basic/index_basic.md
+  - 基础:
+    - basic/index_basic.md
+    - 初识 Coding Agent:
+      - basic/coding-agent/index.md
+      - 课程讲义: basic/coding-agent/coding-agent-lecture.html
+    - VScode 与 Linux 入门:
+      - basic/vscode-linux/index.md
+    - 前端基础:
+      - basic/frontend/index.md
+    - 后端基础:
+      - basic/backend/index.md
+    - Docker 入门:
+      - basic/docker/index.md
+    - 算力与基础设施:
+      - basic/infrastructure/index.md
