@@ -20,4 +20,6 @@
 
 [课程讲义](coding-agent-lecture.html)
 
+[课程视频（Bilibili）](https://www.bilibili.com/video/BV1WonV6PER7/)
+
 [下载 HTML 讲义](coding-agent-lecture.html){: download="coding-agent-lecture.html" }
