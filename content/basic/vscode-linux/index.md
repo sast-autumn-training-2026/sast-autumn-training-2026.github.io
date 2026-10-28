@@ -11,3 +11,7 @@
 ## 授课安排
 
 授课时间：第七周周日（11月1日）下午 15:00–16:30
+
+## 课程材料
+
+[下载课程讲义：操作系统与开发环境（PPTX）](os-and-development-environment.pptx){: download="操作系统与开发环境.pptx" }
